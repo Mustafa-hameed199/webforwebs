@@ -1,29 +1,14 @@
-# all_webs
+# web4webs
 
-## Project setup
-```
-npm install
-```
+## Technologies Used 
+* HTML
+* SCSS
+* Vue
+## Description 
+helps you to get to websites you are using in your projects __faster__ 🏃‍♂️ and with different categories 
+to help you __save time__ 💁‍♂️ of searching the website you want in projects 
+ 
+### Live View  [webs4webs](https://web4webs.netlify.app)
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Run your unit tests
-```
-npm run test:unit
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+![Website Picture1](https://github.com/Mustafa-hameed199/web4webs/blob/master/src/assets/images/website-pic1.png?raw=true)
+![Website Picture2](https://github.com/Mustafa-hameed199/web4webs/blob/master/src/assets/images/website-pic2.png?raw=true)
