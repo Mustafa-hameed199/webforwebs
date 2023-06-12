@@ -1,0 +1,48 @@
+/* 👉👉👉👉👉👉👉👉👉👉👉👉  Common Style  👈👈👈👈👈👈 */
+body { background-color: var(--section_bg_clr) }
+
+section { 
+    min-height: 100vh;
+    padding: var(--main_padding) 0;
+}
+
+.content-title {
+    font-size: clamp(2rem, 1rem + 3vw, 3rem);
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 2rem;
+    word-break: break-word;
+    color: var(--text_clr);
+}
+
+.box {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(min(250px, 100%), 1fr));
+    text-align: center;
+    gap: 1rem;
+    font-size: 1.3rem;
+    font-weight: 600;
+    text-transform: capitalize; 
+    margin-bottom: 2rem;
+
+    a {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+        position: relative;
+        padding: 1rem 1.5rem;
+        border-radius: 5px;
+        
+        color: var(--text_clr);
+        background: var(--section_bg_clr);
+        box-shadow: var(--items_shadow);
+
+        transition: .25s cubic-bezier(.34,.8,.66,1.48);
+
+        &:hover {
+            box-shadow: var(--items_shadow_hover);
+            transform: scale(.85);
+        }
+    }
+}

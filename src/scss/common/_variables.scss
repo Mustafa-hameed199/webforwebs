@@ -1,0 +1,18 @@
+:root {
+    --main_clr: #2a72b1;
+    --nav_menu_bg_clr_mobile: rgba(255, 255, 255, 0.5);
+    --nav_menu_bg_clr: rgba(0, 0, 0, 0.75);
+    --nav_ul_mobil_bg_clr: #101010;
+
+    --white_clr: white;
+    --black_clr: black;
+    --section_bg_clr: #ccc;
+    --text_clr: var(--black_clr);
+    --home_img_shadow: 8px 8px 8px rgba(0 0 0 /0.4);
+
+    --items_shadow: 0.25rem 0.25rem 0.5rem #aaa, -0.25rem -0.25rem 0.5rem #eee;
+
+    --items_shadow_hover: inset 0.25rem 0.25rem 0.5rem #aaa, inset -0.25rem -0.25rem 0.5rem #eee;
+
+    --main_padding: 100px;
+}

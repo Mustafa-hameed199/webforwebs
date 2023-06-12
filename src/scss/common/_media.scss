@@ -1,0 +1,16 @@
+/* 👉👉👉👉👉👉👉👉👉👉👉👉  Media (container)  👈👈👈👈👈👈 */
+.container {
+    padding-right: 30px;
+    padding-left: 30px;
+    margin-right: auto;
+    margin-left: auto;
+
+    @include bp(mobile) { max-width: 600px }
+    @include bp(small) { width: 750px }
+    @include bp(medium) { width: 970px }
+    @include bp(large) { width: 1170px }
+}
+
+
+
+
